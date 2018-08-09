@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_color"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.InfoActivity"
+    tools:showIn="@layout/activity_info">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_color"
+        android:orientation="vertical"
+        >
+
+
+     <TextView
+        android:id="@+id/text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size"
+        android:text="@string/name"
+         />
+
+     <TextView
+         android:id="@+id/text_email"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="@dimen/margin_20_text"
+         android:textSize="@dimen/text_size"
+         android:text="@string/email"
+         />
+
+        <TextView
+         android:id="@+id/text_phone"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:textSize="@dimen/text_size"
+         android:text="@string/phone"
+         />
+
+        <TextView
+         android:id="@+id/text_nationality"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textSize="@dimen/text_size"
+         android:layout_marginTop="@dimen/margin_20_text"
+         android:text="@string/nationality"
+         />
+
+        <TextView
+         android:id="@+id/text_date"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textSize="@dimen/text_size"
+         android:layout_marginTop="@dimen/margin_20_text"
+         android:text="@string/date"
+         />
+
+        <TextView
+         android:id="@+id/text_age"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textSize="@dimen/text_size"
+         android:layout_marginTop="@dimen/margin_20_text"
+         android:text="@string/age"
+         />
+    </LinearLayout>
+
+
+
+</android.support.v4.widget.NestedScrollView>
